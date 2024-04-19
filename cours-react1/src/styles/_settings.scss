@@ -1,6 +1,6 @@
 @font-face {
   font-family: "font-1";
-  src: url(../assets/fonts/JosefinSans-Medium.ttf);
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 }
 
 $font-1: "font-1", sans-serif;
