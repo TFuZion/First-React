@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff1e1;
+}
+
+.App{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+  color: orange;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
